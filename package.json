@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "maptalks": "^1.0.0-rc.4",
+    "maptalks.three": "^0.23.1",
+    "three": "^0.140.2"
+  },
+  "name": "datawalkdashboard",
+  "version": "0.0.1",
+  "description": "3D map visualisation of datawalks and open data",
+  "main": "index.html",
+  "author": "Jo Kroese",
+  "license": "UNLICENSED",
+  "private": false,
+  "scripts": {
+    "serve": "webpack serve --open",
+    "watch": "webpack --watch",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "css-loader": "^6.7.1",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
+  }
+}
