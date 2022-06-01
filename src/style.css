@@ -70,7 +70,7 @@ button {
   width: fit-content;
   height: fit-content;
   /* border: none; */
-  border: #1a1a1a solid 5px;
+  border: #000000 solid 5px;
   background-color: transparent;
   cursor: pointer;
 }
@@ -93,7 +93,7 @@ aside {
   height: 95%;
   z-index: 2;
   overflow-y: scroll;
-  border: #1a1a1a solid 5px;
+  border: #000000 solid 5px;
   border-top: none;
   box-shadow: 1.5vw 1.5vw 15px 4px rgba(0, 0, 0, 0.5);
 }
