@@ -86,26 +86,27 @@ nav button {
 
 aside {
   position: absolute;
-  /* background-color: rgba(244, 244, 244, 0.7); */
   background-color: #f5f5f5;
   display: none;
   width: fit-content;
   height: 95%;
   z-index: 2;
+  overflow-x: clip;
   overflow-y: scroll;
   border: #000000 solid 5px;
   border-top: none;
-  box-shadow: 1.5vw 1.5vw 15px 4px rgba(0, 0, 0, 0.5);
 }
 
 aside.about {
   align-self: flex-start;
   border-left: none;
+  box-shadow: 1.5vw 1.5vw 15px 4px rgba(0, 0, 0, 0.5);
 }
 
 aside.add {
   justify-self: flex-end;
   border-right: none;
+  box-shadow: -1.5vw 1.5vw 15px 4px rgba(0, 0, 0, 0.5);
 }
 
 aside.about button {
