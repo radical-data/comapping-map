@@ -74,6 +74,27 @@
           Anyone visiting Amelisweerd is invited to record things of interest
           and submit them to the Comapping platform.
         </p>
+        <div id="tripetto"></div>
+        <script src="https://unpkg.com/tripetto-runner-foundation"></script>
+        <script src="https://unpkg.com/tripetto-runner-autoscroll"></script>
+        <script src="https://unpkg.com/tripetto-services"></script>
+        <script>
+          var tripetto = TripettoServices.init({
+            token:
+              "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiaUEwZjRCUmNuNEN1UGdnYTZzam5TYzh6Tkh1OHZWdGVjdjhGcllQaHlDMD0iLCJkZWZpbml0aW9uIjoiQ093ZmRld2dEZXY5K0dwR2t2a0N2dGFJTEZnaWd4anYzbnh5emZKSU8vMD0iLCJ0eXBlIjoiY29sbGVjdCJ9.ej85sPi4SWmrM4oboUSONBlC3p3HbDs9-yHEmaEajZ8",
+          });
+
+          TripettoAutoscroll.run({
+            element: document.getElementById("tripetto"),
+            definition: tripetto.definition,
+            styles: tripetto.styles,
+            l10n: tripetto.l10n,
+            locale: tripetto.locale,
+            translations: tripetto.translations,
+            attachments: tripetto.attachments,
+            onSubmit: tripetto.onSubmit,
+          });
+        </script>
       </aside>
     </main>
 
