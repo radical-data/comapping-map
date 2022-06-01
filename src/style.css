@@ -1,12 +1,195 @@
 html,
 body {
-	width: 100%;
-	height: 100%;
-	margin: 0;
-	overflow: hidden;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: grid;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  /* top: -1em; */
+  width: 100%;
+  position: absolute;
+  background-color: transparent;
+  z-index: 1;
+  height: 1vh;
 }
 
 #map {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
 }
+
+@font-face {
+  font-family: Urbanist;
+  src: url("./fonts/Urbanist-VariableFont_wght.woff2") format("woff2");
+}
+
+html {
+  font-family: Urbanist, sans-serif;
+}
+
+nav * {
+  align-self: center;
+  font-weight: 700;
+}
+
+nav #title {
+  position: relative;
+  grid-column: 2;
+  grid-row: 1;
+  justify-self: center;
+  text-align: center;
+}
+
+nav.about {
+  position: relative;
+  grid-column: 1;
+  grid-row: 1;
+  justify-self: left;
+}
+
+nav.add {
+  position: relative;
+  grid-column: 3;
+  grid-row: 1;
+  justify-self: end;
+}
+
+button {
+  width: fit-content;
+  height: fit-content;
+  /* border: none; */
+  border: #1a1a1a solid 5px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+nav h1 {
+  font-size: 400%;
+}
+nav button {
+  padding: 1vw;
+  margin: 0 1vw 0 1vw;
+  font-size: 250%;
+}
+
+aside {
+  position: absolute;
+  /* background-color: rgba(244, 244, 244, 0.7); */
+  background-color: #f5f5f5;
+  display: none;
+  width: fit-content;
+  height: 95%;
+  z-index: 2;
+  overflow-y: scroll;
+  border: #1a1a1a solid 5px;
+  border-top: none;
+  box-shadow: 1.5vw 1.5vw 15px 4px rgba(0, 0, 0, 0.5);
+}
+
+aside.about {
+  align-self: flex-start;
+  border-left: none;
+}
+
+aside.add {
+  justify-self: flex-end;
+  border-right: none;
+}
+
+aside.about button {
+  justify-self: flex-start;
+}
+
+aside.add button {
+  justify-self: flex-end;
+}
+
+aside * {
+  padding: 0 1vw;
+  max-width: 70ch;
+}
+
+aside h2 {
+  font-size: 3em;
+}
+
+aside h3::after {
+  content: "";
+  border-top: 3em solid #000000;
+  align-self: center;
+}
+
+aside h3 {
+  font-size: 1.87em;
+}
+
+aside a {
+  padding: 0;
+}
+
+aside button {
+  font-size: 2em;
+  text-align: center;
+  align-items: center;
+  justify-self: center;
+  display: grid;
+}
+
+aside.about > button {
+  margin: 1vw 0 0 1vw;
+}
+
+aside.add > button {
+  margin: 1vw 1vw 0 0;
+}
+
+button:hover {
+  background-color: yellow;
+}
+
+/* 
+.content {
+  color: #fff;
+  width: 190px;
+  height: 128px;
+  background-color: rgba(10, 10, 10, 0.3);
+  border-radius: 5px;
+}
+
+.pop_title {
+  float: left;
+  padding-left: 10px;
+  width: 180px;
+  height: 36px;
+  line-height: 36px;
+  font-weight: bold;
+}
+
+.pop_time {
+  float: left;
+  width: 183px;
+  height: 30px;
+  margin: 0 10px;
+  line-height: 36px;
+}
+.pop_dept {
+  float: left;
+  padding: 5px;
+  max-width: 65px;
+  line-height: 15px;
+  text-align: center;
+  border: 1px solid #192b41;
+  margin: 0 10px;
+} */
