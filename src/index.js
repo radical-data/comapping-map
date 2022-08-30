@@ -4,8 +4,8 @@ import "maptalks/dist/maptalks.css";
 import * as maptalks from "maptalks";
 
 var map = new maptalks.Map("map", {
-  center: [5.169561, 52.070794],
-  zoom: 16,
+  center: [13.5098581, 52.5278978],
+  zoom: 17,
   pitch: 65,
   attribution: false,
   baseLayer: new maptalks.TileLayer("base", {
