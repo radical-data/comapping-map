@@ -89,12 +89,14 @@ aside {
   background-color: #f5f5f5;
   display: none;
   width: fit-content;
+  max-width: 70ch;
   height: 95%;
   z-index: 2;
   overflow-x: clip;
   overflow-y: scroll;
   border: #000000 solid 5px;
   border-top: none;
+  padding: 0 1vw;
 }
 
 aside.about {
@@ -117,27 +119,12 @@ aside.add button {
   justify-self: flex-end;
 }
 
-aside * {
-  padding: 0 1vw;
-  max-width: 70ch;
-}
-
 aside h2 {
   font-size: 3em;
 }
 
-aside h3::after {
-  content: "";
-  border-top: 3em solid #000000;
-  align-self: center;
-}
-
 aside h3 {
   font-size: 1.87em;
-}
-
-aside a {
-  padding: 0;
 }
 
 aside button {
@@ -149,7 +136,7 @@ aside button {
 }
 
 aside.about > button {
-  margin: 1vw 0 0 1vw;
+  margin-top: 1vw;
 }
 
 aside.add > button {
