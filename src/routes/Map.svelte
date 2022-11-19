@@ -89,7 +89,7 @@
       attribution: false,
       baseLayer: new maptalks.TileLayer("base", {
         urlTemplate:
-          "http://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png",
+          "https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png",
         subdomains: ["a", "b", "c", "d"],
         // cssFilter: "hue-rotate(180deg) invert(100%) brightness(500%) ",
       }),
