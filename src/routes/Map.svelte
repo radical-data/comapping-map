@@ -1,11 +1,83 @@
 <script>
   import { onMount } from "svelte";
 
+  function unquote(strWithQuotes) {
+    var strWithoutQuotes = strWithQuotes.replace(/^"(.*)"$/, "$1");
+    return strWithoutQuotes;
+  }
+
+  // function chooseImage(title, value) {
+  //   let x = "";
+  //   console.log(title + value);
+  //   if (title.includes("video")) {
+  //     x = "./src/images/1254-200.png";
+  //   } else {
+  //     x = "./src/images/154231-200.png";
+  //   }
+  //   console.log(x);
+  //   // let file = "./src/images/" + x + ".png";
+  //   return x;
+  // }
+
+  function modifyGeometry(geometry) {
+    let title = unquote(JSON.stringify(geometry.properties.input));
+    let value = unquote(JSON.stringify(geometry.properties.value));
+    let date = unquote(JSON.stringify(geometry.properties.date));
+    // let image = chooseImage(title, value);
+    return geometry
+      .config({
+        symbol: {
+          markerFile: "./src/images/1254-200.png",
+          markerWidth: 40,
+          markerHeight: 40,
+          markerDx: 0,
+          markerDy: 0,
+          markerOpacity: 1,
+        },
+        properties: {
+          altitude: geometry._coordinates.z,
+        },
+      })
+      .setInfoWindow({
+        title: title,
+        content:
+          '<div class="content">' +
+          '<div class="pop_title">' +
+          title +
+          "</div>" +
+          '<div class="pop_time">' +
+          "</div><br>" +
+          '<div class="pop_dept">' +
+          "read at " +
+          date +
+          // geometry.properties.coordinate.x +
+          "</div>" +
+          '<div class="pop_dept">' +
+          // coordinate.y +
+          "</div>" +
+          '<div class="arrow"></div>' +
+          "</div>",
+        // 'width': 300,
+        // 'minHeight': 120,
+        custom: true,
+        autoOpenOn: "click", //set to null if not to open when clicking on marker
+        autoCloseOn: "click",
+      });
+  }
+
+  let collection;
+  let geometries;
+
+  async function fetchData(map) {
+    const res = await fetch("./src/data/data-walk_2022-11-14_15-46-7.geojson");
+    collection = await res.json();
+  }
+
   onMount(async () => {
     const maptalks = await import("maptalks");
 
     var map = new maptalks.Map("map", {
-      center: [13.5098581, 52.5278978],
+      center: [13.443364738583947, 52.504951831988215],
       zoom: 17,
       pitch: 65,
       attribution: false,
@@ -13,149 +85,22 @@
         urlTemplate:
           "http://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png",
         subdomains: ["a", "b", "c", "d"],
-        // attribution:
-        //   '&copy; <a href="http://www.osm.org/copyright">OSM</a> contributors, ' +
-        //   '&copy; <a href="https://carto.com/attributions">CARTO</a>',
+        // cssFilter: "hue-rotate(180deg) invert(100%) brightness(500%) ",
       }),
-      layers: [new maptalks.VectorLayer("markers")],
     });
+
+    await fetchData();
+
+    geometries = maptalks.GeoJSON.toGeometry(collection, (geometry) => {
+      console.log(geometry);
+      modifyGeometry(geometry);
+    });
+
+    new maptalks.VectorLayer("markers", geometries, {
+      // enableAltitude: true,
+      altitudeProperty: "altitude",
+    }).addTo(map);
   });
-
-  //   // function addMarkers(array) {
-  //   //   for (i in array) {
-  //   //     var new_marker = new maptalks.Marker(i.coordinates, {
-  //   //       symbol: {
-  //   //         markerType: "x",
-  //   //         markerFill: "rgb(135,196,240)",
-  //   //         markerFillOpacity: 1,
-  //   //         markerLineColor: "#0000ff",
-  //   //         markerLineWidth: 5,
-  //   //         markerLineOpacity: 1,
-  //   //         markerLineDasharray: [],
-  //   //         markerWidth: {
-  //   //           stops: [
-  //   //             [10, 0],
-  //   //             [18, 50],
-  //   //             [22, 500],
-  //   //           ],
-  //   //         },
-  //   //         markerHeight: {
-  //   //           stops: [
-  //   //             [10, 0],
-  //   //             [18, 50],
-  //   //             [22, 500],
-  //   //           ],
-  //   //         },
-  //   //         markerDx: 10,
-  //   //         markerDy: 10,
-  //   //         markerOpacity: 1,
-  //   //       },
-  //   //     });
-  //   //     map.getLayer("markers").addGeometry(new_marker);
-  //   //     console.log(new_marker);
-  //   //   }
-  //   var m1 = new maptalks.Marker([5.169854983564557, 52.06755688178754], {
-  //     symbol: {
-  //       markerFile: "src/amelisweerd-building.jpeg",
-  //       markerWidth: {
-  //         stops: [
-  //           [10, 0],
-  //           [18, 50],
-  //           [22, 500],
-  //         ],
-  //       },
-  //       markerHeight: {
-  //         stops: [
-  //           [10, 0],
-  //           [18, 50],
-  //           [22, 500],
-  //         ],
-  //       },
-  //       markerOpacity: 0.8,
-  //     },
-  //   }).setInfoWindow({
-  //     // title: "Marker's InfoWindow",
-  //     content:
-  //       '<div class="content">' +
-  //       '<div class="pop_title">Custom InfoWindow</div>' +
-  //       '<div class="pop_time">' +
-  //       new Date().toLocaleTimeString() +
-  //       "</div><br>" +
-  //       '<div class="pop_dept">' +
-  //       // coordinate.x +
-  //       "</div>" +
-  //       '<div class="pop_dept">' +
-  //       // coordinate.y +
-  //       "</div>" +
-  //       '<div class="arrow"></div>' +
-  //       "</div>",
-  //     // 'autoPan': true,
-  //     // 'width': 300,
-  //     // 'minHeight': 120,
-  //     custom: true,
-  //     //'autoOpenOn' : 'click',  //set to null if not to open when clicking on marker
-  //     autoCloseOn: "click",
-  //   });
-  //   //   var m2 = new maptalks.Marker([5.169561, 52.070794], {
-  //   //     symbol: {
-  //   //       markerFile: "../images/tree.jpg",
-  //   //       markerWidth: {
-  //   //         stops: [
-  //   //           [10, 0],
-  //   //           [18, 50],
-  //   //           [22, 500],
-  //   //         ],
-  //   //       },
-  //   //       markerHeight: {
-  //   //         stops: [
-  //   //           [10, 0],
-  //   //           [18, 50],
-  //   //           [22, 500],
-  //   //         ],
-  //   //       },
-  //   //       markerOpacity: 0.8,
-  //   //     },
-  //   //   });
-  //   //   var m3 = new maptalks.Marker([5.17, 52.071], {
-  //   //     symbol: {
-  //   //       markerType: "x",
-  //   //       markerFill: "rgb(135,196,240)",
-  //   //       markerFillOpacity: 1,
-  //   //       markerLineColor: "#0000ff",
-  //   //       markerLineWidth: 5,
-  //   //       markerLineOpacity: 1,
-  //   //       markerLineDasharray: [],
-  //   //       markerWidth: {
-  //   //         stops: [
-  //   //           [10, 0],
-  //   //           [18, 50],
-  //   //           [22, 500],
-  //   //         ],
-  //   //       },
-  //   //       markerHeight: {
-  //   //         stops: [
-  //   //           [10, 0],
-  //   //           [18, 50],
-  //   //           [22, 500],
-  //   //         ],
-  //   //       },
-  //   //       markerDx: 10,
-  //   //       markerDy: 10,
-  //   //       markerOpacity: 1,
-  //   //     },
-  //   //   });
-  //   map.getLayer("markers").addGeometry(m1);
-  //   // }
-
-  //   // fetch("./data/data.json")
-  //   //   .then((response) => {
-  //   //     return response.json();
-  //   //   })
-  //   .then((jsondata) => addMarkers(jsondata));
-
-  // // console.log(markers);
-  // // var marker_1 = markers.geometry.coordinates;
-  // // console.log(marker_1);
 </script>
 
 <div id="map" />
