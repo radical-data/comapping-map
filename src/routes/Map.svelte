@@ -22,7 +22,11 @@
   function modifyGeometry(geometry) {
     let title = unquote(JSON.stringify(geometry.properties.input));
     let value = unquote(JSON.stringify(geometry.properties.value));
-    let date = unquote(JSON.stringify(geometry.properties.date));
+    // let date = unquote(JSON.stringify(geometry.properties.date));
+    let date = new Date(geometry.properties.date);
+    let date_to_display = date.toDateString();
+    let time_to_display =
+      date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds();
     // let image = chooseImage(title, value);
     return geometry
       .config({
@@ -48,8 +52,10 @@
           '<div class="pop_time">' +
           "</div><br>" +
           '<div class="pop_dept">' +
-          "read at " +
-          date +
+          "read on " +
+          date_to_display +
+          " at " +
+          time_to_display +
           // geometry.properties.coordinate.x +
           "</div>" +
           '<div class="pop_dept">' +
@@ -57,7 +63,7 @@
           "</div>" +
           '<div class="arrow"></div>' +
           "</div>",
-        // 'width': 300,
+        // width: 300,
         // 'minHeight': 120,
         custom: true,
         autoOpenOn: "click", //set to null if not to open when clicking on marker

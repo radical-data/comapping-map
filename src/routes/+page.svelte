@@ -17,6 +17,7 @@
   }
 </script>
 
+<svelte:head />
 <nav>
   <h1 id="title">Comapping</h1>
   <button class="about" on:click={aboutClicked}> About </button>
