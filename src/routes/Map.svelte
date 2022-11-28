@@ -22,6 +22,9 @@
   function modifyGeometry(geometry) {
     let title = unquote(JSON.stringify(geometry.properties.input));
     let value = unquote(JSON.stringify(geometry.properties.value));
+    if (title == "text") {
+      title = value;
+    }
     // let date = unquote(JSON.stringify(geometry.properties.date));
     let date = new Date(geometry.properties.date);
     let date_to_display = date.toDateString();
@@ -44,30 +47,15 @@
       })
       .setInfoWindow({
         title: title,
+        custom: true,
         content:
-          '<div class="content">' +
-          '<div class="pop_title">' +
+          '<div style="background-color: white; padding: 15px; border-radius: 15px; width:200px">' +
+          '<div style="font-family: Urbanist; font-size: 1.3rem; font-weight: 600">' +
           title +
           "</div>" +
-          '<div class="pop_time">' +
-          "</div><br>" +
-          '<div class="pop_dept">' +
-          "read on " +
-          date_to_display +
-          " at " +
-          time_to_display +
-          // geometry.properties.coordinate.x +
-          "</div>" +
-          '<div class="pop_dept">' +
-          // coordinate.y +
-          "</div>" +
-          '<div class="arrow"></div>' +
           "</div>",
-        // width: 300,
-        // 'minHeight': 120,
-        custom: true,
-        autoOpenOn: "click", //set to null if not to open when clicking on marker
-        autoCloseOn: "click",
+        autoPan: false,
+        width: 300,
       });
   }
 
@@ -75,7 +63,7 @@
   let geometries;
 
   async function fetchData(map) {
-    const res = await fetch("./src/data/data-walk_2022-11-14_15-46-7.geojson");
+    const res = await fetch("./src/data/mergedfile.geojson");
     collection = await res.json();
   }
 
@@ -84,6 +72,7 @@
 
     var map = new maptalks.Map("map", {
       center: [13.443364738583947, 52.504951831988215],
+      bearing: 0,
       zoom: 17,
       pitch: 65,
       attribution: false,
@@ -98,7 +87,7 @@
     await fetchData();
 
     geometries = maptalks.GeoJSON.toGeometry(collection, (geometry) => {
-      console.log(geometry);
+      // console.log(geometry);
       modifyGeometry(geometry);
     });
 
@@ -110,6 +99,12 @@
 </script>
 
 <div id="map" />
+<div class="info-window">
+  <div class="title" />
+</div>
 
 <style>
+  .info-window {
+    background-color: aliceblue;
+  }
 </style>
