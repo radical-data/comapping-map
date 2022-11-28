@@ -1,1 +1,1275 @@
-{"type":"FeatureCollection","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[13.443364738583947,52.504951831988215,39.92436599731445]},"properties":{"input":"Counter","value":1,"date":"2022-11-14T13:47:53.545Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.446283315922239,52.50519333180323,39.726383209228516]},"properties":{"input":"text","value":"Wavy Desert","date":"2022-11-14T13:59:23.971Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.445506106715523,52.50655284227272,37.899169921875]},"properties":{"input":"Trash Bin","value":2,"date":"2022-11-14T14:03:34.501Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.44537290266356,52.506510471472495,38.595035552978516]},"properties":{"input":"Trash Bin","value":3,"date":"2022-11-14T14:04:01.493Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.445700878883034,52.50654508838327,38.677513122558594]},"properties":{"input":"Trash Bin","value":4,"date":"2022-11-14T14:04:06.281Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.445665732582164,52.50593667012094,38.9802360534668]},"properties":{"input":"text","value":"Mercedes-Benz","date":"2022-11-14T14:04:22.920Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.446291707253579,52.505824435138166,39.2445182800293]},"properties":{"input":"text","value":"Zen","date":"2022-11-14T14:04:27.765Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.44668124415716,52.50547592674801,39.30020523071289]},"properties":{"input":"text","value":"Swapfiets","date":"2022-11-14T14:04:36.015Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.446505251967247,52.50514615158183,39.294830322265625]},"properties":{"input":"Trash Bin","value":5,"date":"2022-11-14T14:04:45.295Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.446582915723608,52.505087481905115,39.60572814941406]},"properties":{"input":"text","value":"Zalando","date":"2022-11-14T14:05:04.066Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.446394143871975,52.50501083262229,39.590003967285156]},"properties":{"input":"Trash Bin","value":6,"date":"2022-11-14T14:05:07.880Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.446404633083045,52.50503431683554,39.56034851074219]},"properties":{"input":"Trash Bin","value":7,"date":"2022-11-14T14:05:16.621Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.446404633083045,52.50503431683554,39.56034851074219]},"properties":{"input":"Trash Bin","value":8,"date":"2022-11-14T14:05:18.267Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.446364615821578,52.505093462720424,39.34882354736328]},"properties":{"input":"text","value":"Anschutz hilft","date":"2022-11-14T14:05:29.587Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.446017441867257,52.505115725438046,39.338138580322266]},"properties":{"input":"text","value":"Rewe","date":"2022-11-14T14:05:39.991Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.446300745914451,52.505103844273926,39.74352264404297]},"properties":{"input":"text","value":"Saturn","date":"2022-11-14T14:05:47.778Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.446201274153049,52.505134037711926,39.89950180053711]},"properties":{"input":"text","value":"Inter sport","date":"2022-11-14T14:05:56.542Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.446225287511067,52.50517161829944,39.93909454345703]},"properties":{"input":"Screen","value":1,"date":"2022-11-14T14:06:03.858Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.446069961440763,52.50514830971569,40.065616607666016]},"properties":{"input":"Screen","value":2,"date":"2022-11-14T14:06:15.143Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.44388883017863,52.505071713643744,39.89563751220703]},"properties":{"input":"Screen","value":3,"date":"2022-11-14T14:06:28.547Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.443633821909483,52.505178126241134,39.610557556152344]},"properties":{"input":"Screen","value":4,"date":"2022-11-14T14:06:34.567Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.443719043612093,52.505195588250686,39.00630569458008]},"properties":{"input":"Screen","value":5,"date":"2022-11-14T14:06:45.007Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.443197323838495,52.50505710288667,38.913970947265625]},"properties":{"input":"Trash Bin","value":9,"date":"2022-11-14T14:06:53.972Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.443197323838495,52.50505710288667,38.913970947265625]},"properties":{"input":"Trash Bin","value":10,"date":"2022-11-14T14:06:54.395Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.443617447799225,52.50503595504661,38.912620544433594]},"properties":{"input":"Trash Bin","value":11,"date":"2022-11-14T14:06:56.096Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.444352984690003,52.50512805397925,38.69468307495117]},"properties":{"input":"Trash Bin","value":12,"date":"2022-11-14T14:06:57.184Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.442236125186925,52.50473701848918,38.216835021972656]},"properties":{"input":"Trash Bin","value":13,"date":"2022-11-14T14:07:11.386Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.442704205731387,52.50500604996369,38.19358825683594]},"properties":{"input":"Trash Bin","value":14,"date":"2022-11-14T14:07:19.244Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.442700519178624,52.50502030601486,38.18914031982422]},"properties":{"input":"Trash Bin","value":15,"date":"2022-11-14T14:07:23.216Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.442700519178624,52.50502030601486,38.18914031982422]},"properties":{"input":"Trash Bin","value":16,"date":"2022-11-14T14:07:24.035Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.442700519178624,52.50502030601486,38.18914031982422]},"properties":{"input":"Trash Bin","value":17,"date":"2022-11-14T14:07:25.024Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.442700519178624,52.50502030601486,38.18914031982422]},"properties":{"input":"Trash Bin","value":18,"date":"2022-11-14T14:07:25.635Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.442989376024434,52.50498380702051,38.06258010864258]},"properties":{"input":"Trash Bin","value":19,"date":"2022-11-14T14:07:26.252Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.442989376024434,52.50498380702051,38.06258010864258]},"properties":{"input":"Trash Bin","value":20,"date":"2022-11-14T14:07:26.734Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.442529386780771,52.5051592897373,38.072914123535156]},"properties":{"input":"text","value":"Five Guys","date":"2022-11-14T14:07:55.430Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.442550730799718,52.50491053040413,38.11516189575195]},"properties":{"input":"text","value":"Verti music hall","date":"2022-11-14T14:08:09.264Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.44262667090065,52.504925903130676,38.02338790893555]},"properties":{"input":"text","value":"Sausalitos","date":"2022-11-14T14:08:22.178Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.44257850809967,52.50505724686922,37.96720886230469]},"properties":{"input":"Screen","value":6,"date":"2022-11-14T14:08:26.504Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.442577567537944,52.50513757001218,37.94607925415039]},"properties":{"input":"Screen","value":7,"date":"2022-11-14T14:08:27.180Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.442577567537944,52.50513757001218,37.94607925415039]},"properties":{"input":"Screen","value":8,"date":"2022-11-14T14:08:29.244Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.442577567537944,52.50513757001218,37.94607925415039]},"properties":{"input":"Screen","value":9,"date":"2022-11-14T14:08:30.202Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.442577567537944,52.50513757001218,37.94607925415039]},"properties":{"input":"Screen","value":10,"date":"2022-11-14T14:08:32.106Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.442577567537944,52.50513757001218,37.94607925415039]},"properties":{"input":"Screen","value":11,"date":"2022-11-14T14:08:33.118Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.442704643980962,52.50515710381,37.918216705322266]},"properties":{"input":"Screen","value":12,"date":"2022-11-14T14:08:45.423Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.442704643980962,52.50515710381,37.918216705322266]},"properties":{"input":"Screen","value":13,"date":"2022-11-14T14:08:45.860Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.442668259748961,52.50518981139685,37.91609573364258]},"properties":{"input":"Screen","value":14,"date":"2022-11-14T14:08:49.013Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.442668259748961,52.50518981139685,37.91609573364258]},"properties":{"input":"Screen","value":15,"date":"2022-11-14T14:08:49.956Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.442561907007985,52.50496751030471,37.91360092163086]},"properties":{"input":"Screen","value":16,"date":"2022-11-14T14:08:57.653Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.442561907007985,52.50496751030471,37.91360092163086]},"properties":{"input":"Screen","value":17,"date":"2022-11-14T14:08:58.160Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.442433218495111,52.50486652252899,40.17916488647461]},"properties":{"input":"Screen","value":18,"date":"2022-11-14T14:09:25.294Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.442491161967352,52.504885384424746,40.351806640625]},"properties":{"input":"Screen","value":19,"date":"2022-11-14T14:09:26.659Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.442491161967352,52.504885384424746,40.351806640625]},"properties":{"input":"Screen","value":20,"date":"2022-11-14T14:09:27.107Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.442590047156571,52.50489670270548,39.517086029052734]},"properties":{"input":"Screen","value":21,"date":"2022-11-14T14:09:36.004Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.442590047156571,52.50489670270548,39.517086029052734]},"properties":{"input":"Screen","value":22,"date":"2022-11-14T14:09:36.408Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.442543352626169,52.50495048000099,37.995033264160156]},"properties":{"input":"text","value":"Amazon","date":"2022-11-14T14:10:02.978Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.442432584365232,52.50488112289443,37.92922592163086]},"properties":{"input":"Screen","value":23,"date":"2022-11-14T14:10:10.688Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.442432584365232,52.50488112289443,37.92922592163086]},"properties":{"input":"Screen","value":24,"date":"2022-11-14T14:10:11.054Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.44277879774102,52.50515093317421,40.25286865234375]},"properties":{"input":"text","value":"UCI","date":"2022-11-14T14:10:33.253Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.442750961822737,52.50541133737773,38.12314987182617]},"properties":{"input":"Screen","value":25,"date":"2022-11-14T14:11:24.662Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.442469191633764,52.505302995059004,38.09846496582031]},"properties":{"input":"Screen","value":26,"date":"2022-11-14T14:11:30.537Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.44204809622923,52.50561543277891,38.08131790161133]},"properties":{"input":"Screen","value":27,"date":"2022-11-14T14:11:34.557Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.44204809622923,52.50561543277891,38.08131790161133]},"properties":{"input":"Screen","value":28,"date":"2022-11-14T14:11:35.155Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.44204809622923,52.50561543277891,38.08131790161133]},"properties":{"input":"Screen","value":29,"date":"2022-11-14T14:11:36.768Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.44204809622923,52.50561543277891,38.08131790161133]},"properties":{"input":"Screen","value":30,"date":"2022-11-14T14:11:38.874Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.441374732407256,52.505183909938026,37.90689468383789]},"properties":{"input":"text","value":"Loretta","date":"2022-11-14T14:12:13.616Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.442031215257705,52.505826678798634,37.9071044921875]},"properties":{"input":"text","value":"Zalando","date":"2022-11-14T14:13:12.837Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.441131744413024,52.50610931418201,37.90781784057617]},"properties":{"input":"text","value":"Zech","date":"2022-11-14T14:13:48.743Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.441025578388677,52.506187659105485,37.903682708740234]},"properties":{"input":"text","value":"Bam","date":"2022-11-14T14:14:30.208Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.441013939695896,52.50623674715944,37.90367889404297]},"properties":{"input":"text","value":"Metro","date":"2022-11-14T14:16:31.445Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.4399084962182,52.50666149822136,37.904205322265625]},"properties":{"input":"text","value":"Porr","date":"2022-11-14T14:16:51.515Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.43975673156663,52.506726414450476,37.90439987182617]},"properties":{"input":"text","value":"Tier","date":"2022-11-14T14:16:59.263Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.439097237223542,52.50674384470963,37.90510940551758]},"properties":{"input":"text","value":"Upside","date":"2022-11-14T14:17:25.504Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.438820586906413,52.50662400398773,37.9051399230957]},"properties":{"input":"Trash Bin","value":21,"date":"2022-11-14T14:17:57.909Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.438839575482934,52.50627779516502,37.906158447265625]},"properties":{"input":"Trash Bin","value":22,"date":"2022-11-14T14:17:59.333Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.438570246773965,52.50642243124679,37.905792236328125]},"properties":{"input":"Trash Bin","value":23,"date":"2022-11-14T14:18:01.011Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.438570246773965,52.50642243124679,37.905792236328125]},"properties":{"input":"Trash Bin","value":24,"date":"2022-11-14T14:18:01.693Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.440137482045659,52.50759519128797,38.49315643310547]},"properties":{"input":"text","value":"Ziegert","date":"2022-11-14T14:23:31.692Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.438685148055413,52.50733126503166,39.48151779174805]},"properties":{"input":"text","value":"Porr","date":"2022-11-14T14:24:33.420Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.438562802255142,52.50610042505986,39.066898345947266]},"properties":{"input":"text","value":"Mikare","date":"2022-11-14T14:25:29.326Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.434999249876684,52.50811690558292,37.242191314697266]},"properties":{"input":"text","value":"Init","date":"2022-11-14T14:32:46.602Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.435440626053754,52.50830260443609,40.87973403930664]},"properties":{"input":"text","value":"Hotel schulz","date":"2022-11-14T14:33:08.875Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.434937797029981,52.50869694675267,36.76017480609627]},"properties":{"input":"text","value":"Mc donalds","date":"2022-11-14T14:35:17.906Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.434612680762784,52.509427368409845,38.805171966552734]},"properties":{"input":"Trash Bin","value":25,"date":"2022-11-14T14:36:30.871Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.434424516415927,52.50948573896834,38.78187561035156]},"properties":{"input":"Trash Bin","value":26,"date":"2022-11-14T14:36:33.761Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.43441218528629,52.50947753630733,38.78184509277344]},"properties":{"input":"Screen","value":31,"date":"2022-11-14T14:36:50.548Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.434473685895874,52.50945602193579,43.21407699584961]},"properties":{"input":"Screen","value":32,"date":"2022-11-14T14:38:21.545Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.434473685895874,52.50945602193579,43.21407699584961]},"properties":{"input":"Screen","value":33,"date":"2022-11-14T14:38:22.007Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.434473685895874,52.50945602193579,43.21407699584961]},"properties":{"input":"Screen","value":34,"date":"2022-11-14T14:38:23.249Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.434473685895874,52.50945602193579,43.21407699584961]},"properties":{"input":"Screen","value":35,"date":"2022-11-14T14:38:23.992Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.434485860490218,52.509449991426294,43.21406936645508]},"properties":{"input":"Trash Bin","value":27,"date":"2022-11-14T14:38:25.870Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.434485860490218,52.509449991426294,43.21406936645508]},"properties":{"input":"Trash Bin","value":28,"date":"2022-11-14T14:38:26.238Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.434485860490218,52.509449991426294,43.21406936645508]},"properties":{"input":"text","value":"","date":"2022-11-14T14:38:29.762Z"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[13.434490635314871,52.5094584139539,43.214054107666016]},"properties":{"input":"text","value":"Berlin Souvenirs","date":"2022-11-14T14:38:51.094Z"}}]}
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.443364738583947, 52.504951831988215, 39.92436599731445
+        ]
+      },
+      "properties": {
+        "input": "Counter",
+        "value": 1,
+        "date": "2022-11-14T13:47:53.545Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.446283315922239, 52.50519333180323, 39.726383209228516
+        ]
+      },
+      "properties": {
+        "input": "text",
+        "value": "Wavy Desert",
+        "date": "2022-11-14T13:59:23.971Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.445506106715523, 52.50655284227272, 37.899169921875]
+      },
+      "properties": {
+        "input": "Trash Bin",
+        "value": 2,
+        "date": "2022-11-14T14:03:34.501Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.44537290266356, 52.506510471472495, 38.595035552978516
+        ]
+      },
+      "properties": {
+        "input": "Trash Bin",
+        "value": 3,
+        "date": "2022-11-14T14:04:01.493Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.445700878883034, 52.50654508838327, 38.677513122558594
+        ]
+      },
+      "properties": {
+        "input": "Trash Bin",
+        "value": 4,
+        "date": "2022-11-14T14:04:06.281Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.445665732582164, 52.50593667012094, 38.9802360534668]
+      },
+      "properties": {
+        "input": "text",
+        "value": "Mercedes-Benz",
+        "date": "2022-11-14T14:04:22.920Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.446291707253579, 52.505824435138166, 39.2445182800293
+        ]
+      },
+      "properties": {
+        "input": "text",
+        "value": "Zen",
+        "date": "2022-11-14T14:04:27.765Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.44668124415716, 52.50547592674801, 39.30020523071289]
+      },
+      "properties": {
+        "input": "text",
+        "value": "Swapfiets",
+        "date": "2022-11-14T14:04:36.015Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.446505251967247, 52.50514615158183, 39.294830322265625
+        ]
+      },
+      "properties": {
+        "input": "Trash Bin",
+        "value": 5,
+        "date": "2022-11-14T14:04:45.295Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.446582915723608, 52.505087481905115, 39.60572814941406
+        ]
+      },
+      "properties": {
+        "input": "text",
+        "value": "Zalando",
+        "date": "2022-11-14T14:05:04.066Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.446394143871975, 52.50501083262229, 39.590003967285156
+        ]
+      },
+      "properties": {
+        "input": "Trash Bin",
+        "value": 6,
+        "date": "2022-11-14T14:05:07.880Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.446404633083045, 52.50503431683554, 39.56034851074219
+        ]
+      },
+      "properties": {
+        "input": "Trash Bin",
+        "value": 7,
+        "date": "2022-11-14T14:05:16.621Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.446404633083045, 52.50503431683554, 39.56034851074219
+        ]
+      },
+      "properties": {
+        "input": "Trash Bin",
+        "value": 8,
+        "date": "2022-11-14T14:05:18.267Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.446364615821578, 52.505093462720424, 39.34882354736328
+        ]
+      },
+      "properties": {
+        "input": "text",
+        "value": "Anschutz hilft",
+        "date": "2022-11-14T14:05:29.587Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.446017441867257, 52.505115725438046, 39.338138580322266
+        ]
+      },
+      "properties": {
+        "input": "text",
+        "value": "Rewe",
+        "date": "2022-11-14T14:05:39.991Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.446300745914451, 52.505103844273926, 39.74352264404297
+        ]
+      },
+      "properties": {
+        "input": "text",
+        "value": "Saturn",
+        "date": "2022-11-14T14:05:47.778Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.446201274153049, 52.505134037711926, 39.89950180053711
+        ]
+      },
+      "properties": {
+        "input": "text",
+        "value": "Inter sport",
+        "date": "2022-11-14T14:05:56.542Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.446225287511067, 52.50517161829944, 39.93909454345703
+        ]
+      },
+      "properties": {
+        "input": "Screen",
+        "value": 1,
+        "date": "2022-11-14T14:06:03.858Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.446069961440763, 52.50514830971569, 40.065616607666016
+        ]
+      },
+      "properties": {
+        "input": "Screen",
+        "value": 2,
+        "date": "2022-11-14T14:06:15.143Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.44388883017863, 52.505071713643744, 39.89563751220703
+        ]
+      },
+      "properties": {
+        "input": "Screen",
+        "value": 3,
+        "date": "2022-11-14T14:06:28.547Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.443633821909483, 52.505178126241134, 39.610557556152344
+        ]
+      },
+      "properties": {
+        "input": "Screen",
+        "value": 4,
+        "date": "2022-11-14T14:06:34.567Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.443719043612093, 52.505195588250686, 39.00630569458008
+        ]
+      },
+      "properties": {
+        "input": "Screen",
+        "value": 5,
+        "date": "2022-11-14T14:06:45.007Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.443197323838495, 52.50505710288667, 38.913970947265625
+        ]
+      },
+      "properties": {
+        "input": "Trash Bin",
+        "value": 9,
+        "date": "2022-11-14T14:06:53.972Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.443197323838495, 52.50505710288667, 38.913970947265625
+        ]
+      },
+      "properties": {
+        "input": "Trash Bin",
+        "value": 10,
+        "date": "2022-11-14T14:06:54.395Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.443617447799225, 52.50503595504661, 38.912620544433594
+        ]
+      },
+      "properties": {
+        "input": "Trash Bin",
+        "value": 11,
+        "date": "2022-11-14T14:06:56.096Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.444352984690003, 52.50512805397925, 38.69468307495117
+        ]
+      },
+      "properties": {
+        "input": "Trash Bin",
+        "value": 12,
+        "date": "2022-11-14T14:06:57.184Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.442236125186925, 52.50473701848918, 38.216835021972656
+        ]
+      },
+      "properties": {
+        "input": "Trash Bin",
+        "value": 13,
+        "date": "2022-11-14T14:07:11.386Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.442704205731387, 52.50500604996369, 38.19358825683594
+        ]
+      },
+      "properties": {
+        "input": "Trash Bin",
+        "value": 14,
+        "date": "2022-11-14T14:07:19.244Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.442700519178624, 52.50502030601486, 38.18914031982422
+        ]
+      },
+      "properties": {
+        "input": "Trash Bin",
+        "value": 15,
+        "date": "2022-11-14T14:07:23.216Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.442700519178624, 52.50502030601486, 38.18914031982422
+        ]
+      },
+      "properties": {
+        "input": "Trash Bin",
+        "value": 16,
+        "date": "2022-11-14T14:07:24.035Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.442700519178624, 52.50502030601486, 38.18914031982422
+        ]
+      },
+      "properties": {
+        "input": "Trash Bin",
+        "value": 17,
+        "date": "2022-11-14T14:07:25.024Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.442700519178624, 52.50502030601486, 38.18914031982422
+        ]
+      },
+      "properties": {
+        "input": "Trash Bin",
+        "value": 18,
+        "date": "2022-11-14T14:07:25.635Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.442989376024434, 52.50498380702051, 38.06258010864258
+        ]
+      },
+      "properties": {
+        "input": "Trash Bin",
+        "value": 19,
+        "date": "2022-11-14T14:07:26.252Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.442989376024434, 52.50498380702051, 38.06258010864258
+        ]
+      },
+      "properties": {
+        "input": "Trash Bin",
+        "value": 20,
+        "date": "2022-11-14T14:07:26.734Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.442529386780771, 52.5051592897373, 38.072914123535156
+        ]
+      },
+      "properties": {
+        "input": "text",
+        "value": "Five Guys",
+        "date": "2022-11-14T14:07:55.430Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.442550730799718, 52.50491053040413, 38.11516189575195
+        ]
+      },
+      "properties": {
+        "input": "text",
+        "value": "Verti music hall",
+        "date": "2022-11-14T14:08:09.264Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.44262667090065, 52.504925903130676, 38.02338790893555
+        ]
+      },
+      "properties": {
+        "input": "text",
+        "value": "Sausalitos",
+        "date": "2022-11-14T14:08:22.178Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.44257850809967, 52.50505724686922, 37.96720886230469]
+      },
+      "properties": {
+        "input": "Screen",
+        "value": 6,
+        "date": "2022-11-14T14:08:26.504Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.442577567537944, 52.50513757001218, 37.94607925415039
+        ]
+      },
+      "properties": {
+        "input": "Screen",
+        "value": 7,
+        "date": "2022-11-14T14:08:27.180Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.442577567537944, 52.50513757001218, 37.94607925415039
+        ]
+      },
+      "properties": {
+        "input": "Screen",
+        "value": 8,
+        "date": "2022-11-14T14:08:29.244Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.442577567537944, 52.50513757001218, 37.94607925415039
+        ]
+      },
+      "properties": {
+        "input": "Screen",
+        "value": 9,
+        "date": "2022-11-14T14:08:30.202Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.442577567537944, 52.50513757001218, 37.94607925415039
+        ]
+      },
+      "properties": {
+        "input": "Screen",
+        "value": 10,
+        "date": "2022-11-14T14:08:32.106Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.442577567537944, 52.50513757001218, 37.94607925415039
+        ]
+      },
+      "properties": {
+        "input": "Screen",
+        "value": 11,
+        "date": "2022-11-14T14:08:33.118Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.442704643980962, 52.50515710381, 37.918216705322266]
+      },
+      "properties": {
+        "input": "Screen",
+        "value": 12,
+        "date": "2022-11-14T14:08:45.423Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.442704643980962, 52.50515710381, 37.918216705322266]
+      },
+      "properties": {
+        "input": "Screen",
+        "value": 13,
+        "date": "2022-11-14T14:08:45.860Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.442668259748961, 52.50518981139685, 37.91609573364258
+        ]
+      },
+      "properties": {
+        "input": "Screen",
+        "value": 14,
+        "date": "2022-11-14T14:08:49.013Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.442668259748961, 52.50518981139685, 37.91609573364258
+        ]
+      },
+      "properties": {
+        "input": "Screen",
+        "value": 15,
+        "date": "2022-11-14T14:08:49.956Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.442561907007985, 52.50496751030471, 37.91360092163086
+        ]
+      },
+      "properties": {
+        "input": "Screen",
+        "value": 16,
+        "date": "2022-11-14T14:08:57.653Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.442561907007985, 52.50496751030471, 37.91360092163086
+        ]
+      },
+      "properties": {
+        "input": "Screen",
+        "value": 17,
+        "date": "2022-11-14T14:08:58.160Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.442433218495111, 52.50486652252899, 40.17916488647461
+        ]
+      },
+      "properties": {
+        "input": "Screen",
+        "value": 18,
+        "date": "2022-11-14T14:09:25.294Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.442491161967352, 52.504885384424746, 40.351806640625]
+      },
+      "properties": {
+        "input": "Screen",
+        "value": 19,
+        "date": "2022-11-14T14:09:26.659Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.442491161967352, 52.504885384424746, 40.351806640625]
+      },
+      "properties": {
+        "input": "Screen",
+        "value": 20,
+        "date": "2022-11-14T14:09:27.107Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.442590047156571, 52.50489670270548, 39.517086029052734
+        ]
+      },
+      "properties": {
+        "input": "Screen",
+        "value": 21,
+        "date": "2022-11-14T14:09:36.004Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.442590047156571, 52.50489670270548, 39.517086029052734
+        ]
+      },
+      "properties": {
+        "input": "Screen",
+        "value": 22,
+        "date": "2022-11-14T14:09:36.408Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.442543352626169, 52.50495048000099, 37.995033264160156
+        ]
+      },
+      "properties": {
+        "input": "text",
+        "value": "Amazon",
+        "date": "2022-11-14T14:10:02.978Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.442432584365232, 52.50488112289443, 37.92922592163086
+        ]
+      },
+      "properties": {
+        "input": "Screen",
+        "value": 23,
+        "date": "2022-11-14T14:10:10.688Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.442432584365232, 52.50488112289443, 37.92922592163086
+        ]
+      },
+      "properties": {
+        "input": "Screen",
+        "value": 24,
+        "date": "2022-11-14T14:10:11.054Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.44277879774102, 52.50515093317421, 40.25286865234375]
+      },
+      "properties": {
+        "input": "text",
+        "value": "UCI",
+        "date": "2022-11-14T14:10:33.253Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.442750961822737, 52.50541133737773, 38.12314987182617
+        ]
+      },
+      "properties": {
+        "input": "Screen",
+        "value": 25,
+        "date": "2022-11-14T14:11:24.662Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.442469191633764, 52.505302995059004, 38.09846496582031
+        ]
+      },
+      "properties": {
+        "input": "Screen",
+        "value": 26,
+        "date": "2022-11-14T14:11:30.537Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.44204809622923, 52.50561543277891, 38.08131790161133]
+      },
+      "properties": {
+        "input": "Screen",
+        "value": 27,
+        "date": "2022-11-14T14:11:34.557Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.44204809622923, 52.50561543277891, 38.08131790161133]
+      },
+      "properties": {
+        "input": "Screen",
+        "value": 28,
+        "date": "2022-11-14T14:11:35.155Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.44204809622923, 52.50561543277891, 38.08131790161133]
+      },
+      "properties": {
+        "input": "Screen",
+        "value": 29,
+        "date": "2022-11-14T14:11:36.768Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.44204809622923, 52.50561543277891, 38.08131790161133]
+      },
+      "properties": {
+        "input": "Screen",
+        "value": 30,
+        "date": "2022-11-14T14:11:38.874Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.441374732407256, 52.505183909938026, 37.90689468383789
+        ]
+      },
+      "properties": {
+        "input": "text",
+        "value": "Loretta",
+        "date": "2022-11-14T14:12:13.616Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.442031215257705, 52.505826678798634, 37.9071044921875
+        ]
+      },
+      "properties": {
+        "input": "text",
+        "value": "Zalando",
+        "date": "2022-11-14T14:13:12.837Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.441131744413024, 52.50610931418201, 37.90781784057617
+        ]
+      },
+      "properties": {
+        "input": "text",
+        "value": "Zech",
+        "date": "2022-11-14T14:13:48.743Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.441025578388677, 52.506187659105485, 37.903682708740234
+        ]
+      },
+      "properties": {
+        "input": "text",
+        "value": "Bam",
+        "date": "2022-11-14T14:14:30.208Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.441013939695896, 52.50623674715944, 37.90367889404297
+        ]
+      },
+      "properties": {
+        "input": "text",
+        "value": "Metro",
+        "date": "2022-11-14T14:16:31.445Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.4399084962182, 52.50666149822136, 37.904205322265625]
+      },
+      "properties": {
+        "input": "text",
+        "value": "Porr",
+        "date": "2022-11-14T14:16:51.515Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.43975673156663, 52.506726414450476, 37.90439987182617
+        ]
+      },
+      "properties": {
+        "input": "text",
+        "value": "Tier",
+        "date": "2022-11-14T14:16:59.263Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.439097237223542, 52.50674384470963, 37.90510940551758
+        ]
+      },
+      "properties": {
+        "input": "text",
+        "value": "Upside",
+        "date": "2022-11-14T14:17:25.504Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.438820586906413, 52.50662400398773, 37.9051399230957]
+      },
+      "properties": {
+        "input": "Trash Bin",
+        "value": 21,
+        "date": "2022-11-14T14:17:57.909Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.438839575482934, 52.50627779516502, 37.906158447265625
+        ]
+      },
+      "properties": {
+        "input": "Trash Bin",
+        "value": 22,
+        "date": "2022-11-14T14:17:59.333Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.438570246773965, 52.50642243124679, 37.905792236328125
+        ]
+      },
+      "properties": {
+        "input": "Trash Bin",
+        "value": 23,
+        "date": "2022-11-14T14:18:01.011Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.438570246773965, 52.50642243124679, 37.905792236328125
+        ]
+      },
+      "properties": {
+        "input": "Trash Bin",
+        "value": 24,
+        "date": "2022-11-14T14:18:01.693Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.440137482045659, 52.50759519128797, 38.49315643310547
+        ]
+      },
+      "properties": {
+        "input": "text",
+        "value": "Ziegert",
+        "date": "2022-11-14T14:23:31.692Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.438685148055413, 52.50733126503166, 39.48151779174805
+        ]
+      },
+      "properties": {
+        "input": "text",
+        "value": "Porr",
+        "date": "2022-11-14T14:24:33.420Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.438562802255142, 52.50610042505986, 39.066898345947266
+        ]
+      },
+      "properties": {
+        "input": "text",
+        "value": "Mikare",
+        "date": "2022-11-14T14:25:29.326Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.434999249876684, 52.50811690558292, 37.242191314697266
+        ]
+      },
+      "properties": {
+        "input": "text",
+        "value": "Init",
+        "date": "2022-11-14T14:32:46.602Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.435440626053754, 52.50830260443609, 40.87973403930664
+        ]
+      },
+      "properties": {
+        "input": "text",
+        "value": "Hotel schulz",
+        "date": "2022-11-14T14:33:08.875Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.434937797029981, 52.50869694675267, 36.76017480609627
+        ]
+      },
+      "properties": {
+        "input": "text",
+        "value": "Mc donalds",
+        "date": "2022-11-14T14:35:17.906Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.434612680762784, 52.509427368409845, 38.805171966552734
+        ]
+      },
+      "properties": {
+        "input": "Trash Bin",
+        "value": 25,
+        "date": "2022-11-14T14:36:30.871Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.434424516415927, 52.50948573896834, 38.78187561035156
+        ]
+      },
+      "properties": {
+        "input": "Trash Bin",
+        "value": 26,
+        "date": "2022-11-14T14:36:33.761Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.43441218528629, 52.50947753630733, 38.78184509277344]
+      },
+      "properties": {
+        "input": "Screen",
+        "value": 31,
+        "date": "2022-11-14T14:36:50.548Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.434473685895874, 52.50945602193579, 43.21407699584961
+        ]
+      },
+      "properties": {
+        "input": "Screen",
+        "value": 32,
+        "date": "2022-11-14T14:38:21.545Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.434473685895874, 52.50945602193579, 43.21407699584961
+        ]
+      },
+      "properties": {
+        "input": "Screen",
+        "value": 33,
+        "date": "2022-11-14T14:38:22.007Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.434473685895874, 52.50945602193579, 43.21407699584961
+        ]
+      },
+      "properties": {
+        "input": "Screen",
+        "value": 34,
+        "date": "2022-11-14T14:38:23.249Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.434473685895874, 52.50945602193579, 43.21407699584961
+        ]
+      },
+      "properties": {
+        "input": "Screen",
+        "value": 35,
+        "date": "2022-11-14T14:38:23.992Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.434485860490218, 52.509449991426294, 43.21406936645508
+        ]
+      },
+      "properties": {
+        "input": "Trash Bin",
+        "value": 27,
+        "date": "2022-11-14T14:38:25.870Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.434485860490218, 52.509449991426294, 43.21406936645508
+        ]
+      },
+      "properties": {
+        "input": "Trash Bin",
+        "value": 28,
+        "date": "2022-11-14T14:38:26.238Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.434485860490218, 52.509449991426294, 43.21406936645508
+        ]
+      },
+      "properties": {
+        "input": "text",
+        "value": "",
+        "date": "2022-11-14T14:38:29.762Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.434490635314871, 52.5094584139539, 43.214054107666016
+        ]
+      },
+      "properties": {
+        "input": "text",
+        "value": "Berlin Souvenirs",
+        "date": "2022-11-14T14:38:51.094Z"
+      }
+    }
+  ]
+}
