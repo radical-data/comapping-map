@@ -22,14 +22,18 @@
   function modifyGeometry(geometry) {
     let title = unquote(JSON.stringify(geometry.properties.input));
     let value = unquote(JSON.stringify(geometry.properties.value));
-    if (title == "text") {
-      title = value;
+    let text_to_show = "";
+    if ((title === "Text") | (title === "text")) {
+      text_to_show = value;
+      console.log("text");
+    } else {
+      text_to_show = title;
     }
     // let date = unquote(JSON.stringify(geometry.properties.date));
     let date = new Date(geometry.properties.date);
     let date_to_display = date.toDateString();
-    let time_to_display =
-      date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds();
+    // let time_to_display =
+    date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds();
     // let image = chooseImage(title, value);
     return geometry
       .config({
@@ -46,12 +50,12 @@
         },
       })
       .setInfoWindow({
-        title: title,
+        title: text_to_show,
         custom: true,
         content:
           '<div style="background-color: white; padding: 15px; border-radius: 15px; width:200px">' +
           '<div style="font-family: Urbanist; font-size: 1.3rem; font-weight: 600">' +
-          title +
+          text_to_show +
           "</div>" +
           "</div>",
         autoPan: false,
@@ -63,7 +67,7 @@
   let geometries;
 
   async function fetchData(map) {
-    const res = await fetch("./src/data/mergedfile.geojson");
+    const res = await fetch("./mergedfile.geojson");
     collection = await res.json();
   }
 
