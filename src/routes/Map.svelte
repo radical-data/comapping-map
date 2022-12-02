@@ -38,7 +38,7 @@
     return geometry
       .config({
         symbol: {
-          markerFile: "./src/images/1254-200.png",
+          markerFile: "./1254-200.png",
           markerWidth: 40,
           markerHeight: 40,
           markerDx: 0,
