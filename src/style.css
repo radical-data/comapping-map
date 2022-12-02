@@ -90,7 +90,7 @@ aside {
   display: none;
   width: fit-content;
   max-width: 70ch;
-  height: 95%;
+  max-height: 95%;
   z-index: 2;
   overflow-x: clip;
   overflow-y: scroll;
