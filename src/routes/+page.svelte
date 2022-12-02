@@ -56,10 +56,23 @@
   <aside class="add" id="add-overlay" style="display: {showAddData};">
     <button on:click={closeAddData}> Close </button>
     <h2>Add Your Data</h2>
-    <h3>What data should I submit?</h3>
     <p>
-      Anyone visiting Amelisweerd is invited to record things of interest and
-      submit them to the Comapping platform.
+      Visit <a href="https://comapping.org">comapping.org</a> for all the tools we
+      are building for collecting data.
+    </p>
+    <p>
+      You're invited to use them to collect data from any area that speaks to
+      you: where you live, where you work, your hometown...
+    </p>
+    <p>
+      If you would then like to share it with us, send it to <a
+        href="mailto:comapping@radicaldata.org">comapping@radicaldata.org</a
+      >.
+    </p>
+    <p>
+      If you are interested in running a group data walk, get in touch with us!
+      We'd love to support you and we have lots of tools and some funding
+      available for it.
     </p>
   </aside>
 </main>
