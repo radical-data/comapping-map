@@ -1,5 +1,6 @@
 <script>
   import { onMount } from "svelte";
+  import eye_icon from "$lib/1254-200.png";
 
   function unquote(strWithQuotes) {
     var strWithoutQuotes = strWithQuotes.replace(/^"(.*)"$/, "$1");
@@ -38,7 +39,7 @@
     return geometry
       .config({
         symbol: {
-          markerFile: "./src/images/1254-200.png",
+          markerFile: "./1254-200.png",
           markerWidth: 40,
           markerHeight: 40,
           markerDx: 0,
